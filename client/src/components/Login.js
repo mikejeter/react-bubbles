@@ -41,7 +41,6 @@ const Login = props => {
   return (
       <div className="formContainer">
         <h1>Welcome to the Bubble App!</h1>
-        <h3>Sign In</h3>
         <form
           onSubmit={handleSubmit}
           className={classes.root}
